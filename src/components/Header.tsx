@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Zap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,9 +9,22 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">
-              <Zap className="w-6 h-6 text-white" />
-            </div>
+            <a href="/" className="flex items-center space-x-2">
+              {/*<div className="bg-gradient-to-r from-blue-600 to-purple-600 p-2 rounded-lg">*/}
+              {/*    <Zap className="h-6 w-6 text-white"/>*/}
+              {/*   */}
+              {/*</div>*/}
+              <div>
+                <img src="https://nextmantra.com/assets/NextMantra-Logo-B2nsFuyf.png" alt="logo" style={{width:'50px'}}/>
+              </div>
+              <span className="text-xl font-bold text-gray-900">Next Mantra</span>
+            </a>
+            {/*<div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">*/}
+            {/*  /!*<Zap className="w-6 h-6 text-white" />*!/*/}
+
+
+
+            {/*</div>*/}
             <div>
               <h1 className="text-xl font-bold text-gray-900">The Web3 Labs</h1>
               <p className="text-xs text-gray-600">Innovation Research</p>

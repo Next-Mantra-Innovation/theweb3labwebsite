@@ -30,9 +30,12 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">
-                <Zap className="w-6 h-6 text-white" />
+              <div
+                className="w-10 h-10 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">
+                {/*<Zap className="w-6 h-6 text-white" />*/}
+                <img src="https://nextmantra.com/assets/NextMantra-Logo-NoBG-u0HW3lWa.png" alt="brand" />
               </div>
+
               <div>
                 <h1 className="text-xl font-bold">Web3 Labs</h1>
                 <p className="text-sm text-gray-400">Innovation Research</p>
@@ -42,18 +45,20 @@ const Footer = () => {
               Pioneering the future of Web3 technology through cutting-edge research and breakthrough innovations.
             </p>
             <div className="flex space-x-4">
-              <button className="text-gray-400 hover:text-white transition-colors">
-                <Github className="w-5 h-5" />
-              </button>
-              <button className="text-gray-400 hover:text-white transition-colors">
-                <Twitter className="w-5 h-5" />
-              </button>
+              {/*<button className="text-gray-400 hover:text-white transition-colors">*/}
+              {/*  <Github className="w-5 h-5" />*/}
+              {/*</button>*/}
+              {/*<button className="text-gray-400 hover:text-white transition-colors">*/}
+              {/*  <Twitter className="w-5 h-5" />*/}
+              {/*</button>*/}
+              <a href="https://www.linkedin.com/showcase/web3-innovation-lab" target={'_blank'}>
               <button className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="w-5 h-5" />
               </button>
-              <button className="text-gray-400 hover:text-white transition-colors">
-                <Mail className="w-5 h-5" />
-              </button>
+              </a>
+              {/*<button className="text-gray-400 hover:text-white transition-colors">*/}
+              {/*  <Mail className="w-5 h-5" />*/}
+              {/*</button>*/}
             </div>
           </div>
 
@@ -103,7 +108,8 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              <a href="http://nextmantra.com" target="_blank"> © 2025 Next Mantra Innovation  OU.</a> All rights reserved. Building next web infrastructure
+              <a href="http://nextmantra.com" target="_blank"> © 2025 Next Mantra Innovation OU.</a> All rights
+              reserved. Building next web infrastructure
             </p>
             {/*<div className="flex items-center space-x-2 mt-4 md:mt-0">*/}
             {/*  <span className="text-gray-400 text-sm">Made with</span>*/}
