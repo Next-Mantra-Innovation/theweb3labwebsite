@@ -15,7 +15,7 @@ const Header = () => {
               {/*   */}
               {/*</div>*/}
               <div>
-                <img src="https://nextmantra.com/assets/NextMantra-Logo-B2nsFuyf.png" alt="logo" style={{width:'50px'}}/>
+                <img src="https://nextmantra.com/assets/NextMantra-Logo-NoBG-u0HW3lWa.png" alt="logo" style={{width:'50px'}}/>
               </div>
               <span className="text-xl font-bold text-gray-900">Next Mantra</span>
             </a>
