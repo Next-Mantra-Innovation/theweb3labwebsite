@@ -31,14 +31,14 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <div
-                className="w-10 h-10 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">
+                className="w-10 h-10 bg-gradient-to-r  rounded-lg flex items-center justify-center">
                 {/*<Zap className="w-6 h-6 text-white" />*/}
                 <img src="https://nextmantra.com/assets/NextMantra-Logo-NoBG-u0HW3lWa.png" alt="brand" />
               </div>
 
               <div>
                 <h1 className="text-xl font-bold">Web3 Labs</h1>
-                <p className="text-sm text-gray-400">Innovation Research</p>
+                <p className="text-sm text-gray-400">by Next Mantra Innovation</p>
               </div>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">

@@ -17,7 +17,7 @@ const Header = () => {
               <div>
                 <img src="https://nextmantra.com/assets/NextMantra-Logo-NoBG-u0HW3lWa.png" alt="logo" style={{width:'50px'}}/>
               </div>
-              <span className="text-xl font-bold text-gray-900">Next Mantra</span>
+              {/*<span className="text-xl font-bold text-gray-900">Next Mantra</span>*/}
             </a>
             {/*<div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">*/}
             {/*  /!*<Zap className="w-6 h-6 text-white" />*!/*/}
@@ -27,7 +27,7 @@ const Header = () => {
             {/*</div>*/}
             <div>
               <h1 className="text-xl font-bold text-gray-900">The Web3 Labs</h1>
-              <p className="text-xs text-gray-600">Innovation Research</p>
+              <p className="text-xs text-gray-600">by Next Mantra Innovation</p>
             </div>
           </div>
 
