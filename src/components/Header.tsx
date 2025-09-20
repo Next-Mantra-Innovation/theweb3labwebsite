@@ -56,9 +56,9 @@ const Header = () => {
           <div className="md:hidden py-4 border-t border-gray-200">
             <nav className="flex flex-col space-y-4">
               <a href="#research" className="text-gray-700 hover:text-purple-600 transition-colors">Research</a>
-              <a href="#projects" className="text-gray-700 hover:text-purple-600 transition-colors">Projects</a>
-              <a href="#technology" className="text-gray-700 hover:text-purple-600 transition-colors">Technology</a>
-              <a href="#team" className="text-gray-700 hover:text-purple-600 transition-colors">Team</a>
+              {/*<a href="#projects" className="text-gray-700 hover:text-purple-600 transition-colors">Projects</a>*/}
+              {/*<a href="#technology" className="text-gray-700 hover:text-purple-600 transition-colors">Technology</a>*/}
+              {/*<a href="#team" className="text-gray-700 hover:text-purple-600 transition-colors">Team</a>*/}
               <a href="#contact" className="bg-gradient-to-r from-purple-500 to-blue-500 text-white px-4 py-2 rounded-lg hover:from-purple-600 hover:to-blue-600 transition-all inline-block text-center">
                 Contact
               </a>
