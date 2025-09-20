@@ -50,7 +50,7 @@ const Contact = () => {
                   <Mail className="w-6 h-6 text-purple-500 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-900">General Inquiries</h4>
-                    <p className="text-gray-600">research@theweb3.org</p>
+                    <p className="text-gray-600">research@ [at] theweb3.org</p>
                   </div>
                 </div>
                 
@@ -58,7 +58,7 @@ const Contact = () => {
                   <Users className="w-6 h-6 text-blue-500 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-900">Partnerships</h4>
-                    <p className="text-gray-600">partners@theweb3.org</p>
+                    <p className="text-gray-600">partners [at] theweb3.org</p>
                   </div>
                 </div>
                 
@@ -66,7 +66,7 @@ const Contact = () => {
                   <Globe className="w-6 h-6 text-cyan-500 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-900">Media & Press</h4>
-                    <p className="text-gray-600">press@theweb3.org</p>
+                    <p className="text-gray-600">press [at] theweb3.org</p>
                   </div>
                 </div>
               </div>
