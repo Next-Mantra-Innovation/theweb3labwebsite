@@ -11,14 +11,14 @@ const Projects = () => {
       image: "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800",
       tags: ["ai", "web3", "decentralize"]
     },
-    // {
-    //   title: "ZeroTrace Network",
-    //   description: "Privacy-first blockchain infrastructure using advanced zero-knowledge proof systems.",
-    //   status: "Beta",
-    //   category: "Privacy",
-    //   image: "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=800",
-    //   tags: ["Privacy", "ZK-Proofs", "Infrastructure"]
-    // },
+    {
+      title: "RWA Real Estate",
+      description: "Platform of Real World Application for tokenization of real estate",
+      status: "Research",
+      category: "Apps",
+      image: "https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg?auto=compress&cs=tinysrgb&w=800",
+      tags: ["rwa", "tokenization", "web3"]
+    },
     // {
     //   title: "Quantum Bridge",
     //   description: "Revolutionary cross-chain communication protocol enabling seamless asset transfers.",
