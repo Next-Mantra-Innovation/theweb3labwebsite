@@ -48,17 +48,17 @@ const Footer = () => {
                             innovations.
                         </p>
                         <div className="flex space-x-4">
-                            <a href={'https://linkedinweb.theweb3.org/'} target={'_blank'}>
+                            <a href={'https://www.linkedin.com/showcase/web3-innovation-lab/'} target={'_blank'}>
                                 <button className="text-gray-400 hover:text-white transition-colors">
                                     <Linkedin className="w-5 h-5"/>
                                 </button>
                             </a>
-                            <a href={'https://patreon.theweb3.org'} target={'_blank'}>
+                            <a href={'https://www.patreon.com/cw/theweb3share'} target={'_blank'}>
                                 <button className="text-gray-400 hover:text-white transition-colors">
                                     <SiPatreon className="w-5 h-5"/>
                                 </button>
                             </a>
-                            <a href="https://onlyfans.theweb3.org" target={'_blank'}>
+                            <a href="https://onlyfans.com/theweb3share" target={'_blank'}>
                                 <button className="text-gray-400 hover:text-white transition-colors">
                                     <SiOnlyfans className="w-5 h-5"/>
                                 </button>
