@@ -58,7 +58,7 @@ const Hero = () => {
               </div>
               
               <div className="bg-gradient-to-r from-purple-500 to-blue-500 p-6 rounded-xl text-white mt-4">
-                <div className="text-2xl font-bold mb-2">1</div>
+                <div className="text-2xl font-bold mb-2">4</div>
                 <p className="text-purple-100">Active Research Projects</p>
               </div>
             </div>

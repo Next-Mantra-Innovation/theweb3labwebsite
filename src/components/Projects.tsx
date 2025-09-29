@@ -19,22 +19,22 @@ const Projects = () => {
       image: "https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg?auto=compress&cs=tinysrgb&w=800",
       tags: ["rwa", "tokenization", "web3"]
     },
-    // {
-    //   title: "Quantum Bridge",
-    //   description: "Revolutionary cross-chain communication protocol enabling seamless asset transfers.",
-    //   status: "Research",
-    //   category: "Interoperability",
-    //   image: "https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=800",
-    //   tags: ["Cross-chain", "DeFi", "Interoperability"]
-    // },
-    // {
-    //   title: "Neural DAO",
-    //   description: "AI-powered decentralized governance system with predictive decision-making capabilities.",
-    //   status: "Prototype",
-    //   category: "Governance",
-    //   image: "https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&w=800",
-    //   tags: ["AI", "Governance", "DAO"]
-    // }
+    {
+      title: "Barteran",
+      description: "Direct P2P Physical exchange with the power of web3",
+      status: "Research",
+      category: "Apps",
+      image: "https://images.pexels.com/photos/8275673/pexels-photo-8275673.jpeg?auto=compress&cs=tinysrgb&w=800",
+      tags: ["exchange", "token", "physical goods"]
+    },
+    {
+      title: "Liquid Me",
+      description: "Loan origination backed with coin, token or shares.",
+      status: "Research",
+      category: "defi",
+      image: "https://images.pexels.com/photos/4968637/pexels-photo-4968637.jpeg?auto=compress&cs=tinysrgb&w=800",
+      tags: ["defi", "cross-chain", "financials"]
+    }
   ];
 
   const getStatusColor = (status: string) => {
