@@ -7,20 +7,22 @@ import Technology from './components/Technology';
 import Team from './components/Team';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import CookieConsentComponent from "./components/CookieConsentComponent.tsx";
 
 function App() {
-  return (
-    <div className="min-h-screen">
-      <Header />
-      <Hero />
-      <ResearchAreas />
-      <Projects />
-      {/*<Technology />*/}
-      {/*<Team />*/}
-      <Contact />
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="min-h-screen">
+            <CookieConsentComponent/>
+            <Header/>
+            <Hero/>
+            <ResearchAreas/>
+            <Projects/>
+            {/*<Technology />*/}
+            {/*<Team />*/}
+            <Contact/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
