@@ -64,7 +64,7 @@ const Footer = () => {
                                     <SiOnlyfans className="w-5 h-5"/>
                                 </button>
                             </a>
-                            <a href={'https://www.youtube.com/@TheWeb3-ForUs'} target={'_blank'}>
+                            <a href={'https://youtube.nextmantra.com'} target={'_blank'}>
                                 <button className="text-gray-400 hover:text-white transition-colors">
                                     <SiYoutube   className="w-5 h-5" color={'#ff0000'}/>
                                 </button>
