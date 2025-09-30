@@ -3,6 +3,7 @@ import {Zap, Github, Twitter, Linkedin, Mail, Link} from 'lucide-react';
 import {SiPatreon,SiYoutube,SiOnlyfans} from '@icons-pack/react-simple-icons'
 
 
+
 const Footer = () => {
     const quickLinks = [
         // { name: 'Research', href: '#research' },

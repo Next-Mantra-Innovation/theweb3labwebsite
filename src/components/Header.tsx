@@ -5,7 +5,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-200">
+    <header className="top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
@@ -15,7 +15,7 @@ const Header = () => {
               {/*   */}
               {/*</div>*/}
               <div>
-                <img src="https://nextmantra.com/assets/NextMantra-Logo-NoBG-u0HW3lWa.png" alt="logo" style={{width:'50px'}}/>
+                <img src="https://nextmantra.com/assets/NextMantra-LogoOnly-ml-28GO1.png" alt="logo" style={{width:'100px'}}/>
               </div>
               {/*<span className="text-xl font-bold text-gray-900">Next Mantra</span>*/}
             </a>
