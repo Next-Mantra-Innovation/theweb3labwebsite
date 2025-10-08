@@ -27,7 +27,7 @@ const Header = () => {
             {/*</div>*/}
             <div>
               <h1 className="text-xl font-bold text-gray-900">The Web3 Labs</h1>
-              <p className="text-xs text-gray-600">by Next Mantra Innovation</p>
+              <p className="text-xs text-gray-600">by Agantra Inovatif</p>
             </div>
           </div>
 
